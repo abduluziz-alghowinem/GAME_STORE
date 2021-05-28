@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="header">
+      <nav>
+          <a href="index.html"><img src="images/logo.png"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-chevron-left" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="">HOME</a></li>
+              <li><a href="">ABOUT</a></li>
+              <li><a href="">COURSES</a></li>
+              <li><a href="">BLOG</a></li>
+              <li><a href="">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+  <div class="text-box">
+    <h1>Word's biggest university</h1>
+    <p>Making website now on of the easiest thing in the world. You
+      just need to lear HTML, CSS,<br>JavaScript and you are goot to go.
+    </p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+  </div>
+</section>
+
+
+<!---------------------------Course---------------------------->
+<section class="course">
+  <h1>Courses We Offer</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur asipiscing elit.</p>
+
+  <div class="row">
+    <div class="course-col">
+      <h3>Intermediate</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Pellentesque aliquet turpis nulla, eleifend faucibus easiest
+    collicitudin ut. Maecenas ut venenatis ex, et dapibus purus
+    Donec sit.</p>
+    </div>
+    <div class="course-col">
+      <h3>Degree</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Pellentesque aliquet turpis nulla, eleifend faucibus easiest
+    collicitudin ut. Maecenas ut venenatis ex, et dapibus purus
+    Donec sit.</p>
+    </div>
+    <div class="course-col">
+      <h3>Post Graduation</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Pellentesque aliquet turpis nulla, eleifend faucibus easiest
+    collicitudin ut. Maecenas ut venenatis ex, et dapibus purus
+    Donec sit.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-----------------------------Campus------------------------------->
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum dolor sot amet, consectetur adipiscing elit.</p>
+    <div class=row">
+      <div class="campus-col">
+        <img src="images/london.png">
+        <div class="layer">
+          <h3>LONDON</h3>
+        </div>
+      </div>
+    </div>
+      <div class=row">
+        <div class="campus-col">
+          <img src="images/newyork.png">
+          <div class="layer">
+            <h3>NEWYORK</h3>
+          </div>
+        </div>
+      </div>
+        <div class=row">
+          <div class="campus-col">
+            <img src="images/washington.png">
+            <div class="layer">
+              <h3>WASHINGTON</h3>
+            </div>
+          </div>
+        </div>
+
+</section>
+
+<!-------------------JavaScript Toggle Menu-------------------->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu() {
+    navLinks.style.right = "0px";
+  }
+  function hideMenu() {
+    navLinks.style.right = "-200px";
+  }
+</script>
+</body>
+</html>
