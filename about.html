@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
     <meta name="viewport" content="with=device-width,initial-scale=1.0">
@@ -17,8 +17,8 @@
             <ul>
               <li><a href="index.html">HOME</a></li>
               <li><a href="about.html">ABOUT</a></li>
-              <li><a href="course.html">COURSES</a></li>
-              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="offer.html">OFFER</a></li>
+              <li><a href="jops.html">JOPS</a></li>
               <li><a href="contact.html">CONTACT</a></li>
             </ul>
           </div>
@@ -30,21 +30,21 @@
 <!----------------------About Us Content----------------------->
 <section class="about-us">
   <div class="row">
+
     <div class="about-col">
-      <h1>We Are The Biggest Word University</h1>
+      <h1>We Are The Biggest Games Store</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Pellentesque aliquet turpis nulla, eleifend faucibus easiest
       collicitudin ut. Maecenas ut venenatis ex, et dapibus purus
       Donec sit.</p>
-      <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+      <a href="offer.html" class="hero-btn blue-btn"  onclick="scroll(0, 1000)">EXPLORE NOW</a>
     </div>
 
     <div class="about-col">
-      <img src="images/about.jpg" >
+      <img src="images/about_1.jpg" >
     </div>
 
   </div>
-
 </section>
 
 
@@ -80,9 +80,9 @@
   function hideMenu() {
     navLinks.style.right = "-200px";
   }
-  function scrollWin(){
-      window.scrollBy(0,1180);
-  }
+
+  setTimeout(scrolling(){ window.scroll({ top: 1200,left: 1200, behavior: 'smooth'}); , 5});
+
 
 </script>
 </body>
